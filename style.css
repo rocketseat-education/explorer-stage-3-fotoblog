@@ -13,6 +13,8 @@
     --color-base-gray-100: #f5f5f5;
     --color-base-gray-300: #8d8d99;
     --color-base-gray-900: #202024;
+
+    font-family: 'Mulish', sans-serif;
 }
 
 body {
