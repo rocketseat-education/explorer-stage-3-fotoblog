@@ -117,6 +117,8 @@ main h1 {
 
 .item img {
   width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 footer p {
