@@ -125,14 +125,20 @@ main h1 {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+
+  transition: all 200ms ease-out;
 }
 
 .item img:hover {
   filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+  transform: scale(1.1) rotate(-2deg);
 }
 
 .details {
   padding: 2.2rem;
+  background-color: var(--color-base-white);
+  z-index: 1;
+  position: relative;
 }
 
 .details h2 {
